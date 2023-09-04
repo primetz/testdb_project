@@ -1,5 +1,5 @@
 <?
-    const HOSTNAME = "localhost";
+    const HOSTNAME = "mysql";
     const USERNAME = "root";
     const PASSWORD = "";
     const DBNAME = "testdb";
