@@ -1,0 +1,148 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ff1b7e4e3274be91616355ec42883cef",
+    "packages": [
+        {
+            "name": "nadar/quill-delta-parser",
+            "version": "3.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nadar/quill-delta-parser.git",
+                "reference": "40e21fd139ee29b48f3931cf00507879473bc1c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nadar/quill-delta-parser/zipball/40e21fd139ee29b48f3931cf00507879473bc1c3",
+                "reference": "40e21fd139ee29b48f3931cf00507879473bc1c3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.2",
+                "phpstan/phpstan": "^1.7",
+                "phpunit/phpunit": "^8.0",
+                "rector/rector": "^0.14.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "nadar\\quill\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Basil Suter",
+                    "email": "git@nadar.io"
+                }
+            ],
+            "description": "A PHP library to parse Quill WYSIWYG editor deltas into HTML - flexible and extendible for custom elements.",
+            "keywords": [
+                "delta",
+                "html",
+                "parser",
+                "quill",
+                "quill-delta",
+                "quill-editor",
+                "quilljs",
+                "renderer"
+            ],
+            "support": {
+                "issues": "https://github.com/nadar/quill-delta-parser/issues",
+                "source": "https://github.com/nadar/quill-delta-parser/tree/3.3.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/nadar",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-03-24T17:57:30+00:00"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "v4.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "1d9cda2be34fd6edb74924684260636fd0b89288"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/1d9cda2be34fd6edb74924684260636fd0b89288",
+                "reference": "1d9cda2be34fd6edb74924684260636fd0b89288",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5 || ^7.5",
+                "smarty/smarty-lexer": "^3.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "libs/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                },
+                {
+                    "name": "Simon Wisselink",
+                    "homepage": "https://www.iwink.nl/"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "https://smarty-php.github.io/smarty/",
+            "keywords": [
+                "templating"
+            ],
+            "support": {
+                "forum": "https://github.com/smarty-php/smarty/discussions",
+                "issues": "https://github.com/smarty-php/smarty/issues",
+                "source": "https://github.com/smarty-php/smarty/tree/v4.3.2"
+            },
+            "time": "2023-07-19T10:27:36+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

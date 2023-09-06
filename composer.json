@@ -1,0 +1,18 @@
+{
+    "name": "stanislav.rodikov/testdb_project",
+    "autoload": {
+        "psr-4": {
+            "TestdbProject\\": "php/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stanislav Rodikov",
+            "email": "stanislav.rodikov@yahoo.com"
+        }
+    ],
+    "require": {
+        "smarty/smarty": "^4.3",
+        "nadar/quill-delta-parser": "^3.3"
+    }
+}

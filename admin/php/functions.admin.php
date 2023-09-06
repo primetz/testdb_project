@@ -1,5 +1,8 @@
 <?
-    session_start();
+    if (empty(session_id()) && !headers_sent()) {
+        session_start();
+    }
+
     $url = explode("?", $_SERVER["REQUEST_URI"], 5);
 
     $page_array = explode("/admin/", $url[0]);

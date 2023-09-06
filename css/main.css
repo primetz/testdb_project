@@ -1,0 +1,39 @@
+.house-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+}
+
+.house-list__item,
+.house-list__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.house-list__item {
+    width: 250px;
+    margin-bottom: 30px;
+    background-color: #f1f1f1;
+}
+
+.house-list__info {
+    padding: 10px;
+}
+
+.house-list__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.house-list__phone {
+    align-self: center;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #dcdcdc;
+    color: #0e0e0e;
+    text-decoration: none;
+}
