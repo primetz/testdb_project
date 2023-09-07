@@ -17,7 +17,9 @@
 .house-list__item {
     width: 250px;
     margin-bottom: 30px;
+    border-radius: 4px;
     background-color: #f1f1f1;
+    overflow: hidden;
 }
 
 .house-list__info {
@@ -36,4 +38,30 @@
     background-color: #dcdcdc;
     color: #0e0e0e;
     text-decoration: none;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    color: #0e0e0e;
+}
+
+.pagination__link:not(:last-child) {
+    margin-right: 10px;
+}
+
+.pagination__link:hover,
+.house-list__phone:hover {
+    background-color: #dee3ea;
 }

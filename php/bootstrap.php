@@ -1,8 +1,9 @@
 <?php
 
-use TestdbProject\EntityTable;
+    use TestdbProject\EntityTable;
+    use TestdbProject\Paginator;
 
-require_once $_SERVER["DOCUMENT_ROOT"] . "/admin/php/functions.admin.php";
+    require_once $_SERVER["DOCUMENT_ROOT"] . "/admin/php/functions.admin.php";
 
     $smarty = new Smarty();
 
@@ -11,9 +12,10 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/admin/php/functions.admin.php";
 
     db_connect();
 
-    $table = new EntityTable("NL_PROP_RESALE");
+    $paginator = new Paginator(new EntityTable("NL_PROP_RESALE"), $_GET["page"]);
 
-    $smarty->assign("data", $table->getData(1, 10));
+    $smarty->assign("total_pages", $paginator->getTotalPages(PAGINATION_PAGE_SIZE));
+    $smarty->assign("data", $paginator->paginate(PAGINATION_PAGE_SIZE));
 
     $smarty->display("apartment-table.tpl");
 

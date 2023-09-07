@@ -24,4 +24,9 @@
             </li>
         {/foreach}
     </ul>
+    <div class="pagination">
+        {for $page=1 to $total_pages}
+            <a href="/?page={$page}" class="pagination__link">{$page}</a>
+        {/for}
+    </div>
 {/block}

@@ -4,6 +4,7 @@
     const PASSWORD = "";
     const DBNAME = "testdb";
     const AESKEY = "aes_some_key_to_testdb777";
+    const PAGINATION_PAGE_SIZE = 4;
 
     $mysqli = null;
 
